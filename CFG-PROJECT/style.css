@@ -1,3 +1,55 @@
 h1 {
     text-align: center;
 }
+
+/* ABOUT PAGE */
+
+header {
+    background: #EFECF3;
+    width: auto;
+    height: 245px;
+}
+
+.title {
+    color: #284557;
+    font-size: 64px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto Serif";
+    text-transform: uppercase;
+    width: auto;
+    padding-top: 80px;
+    border: 0px;
+    margin: 20px;
+    
+}
+
+.team {
+    display: flex;
+    align-items:center;
+    margin: 50px;
+}
+
+p {
+    color: #637D8D;
+}
+
+img.about {
+    border-radius: 50%;
+    opacity: 80%;
+    max-width: 50%;
+  }
+
+img.about:hover {
+    opacity: 95%;
+}
+
+button {
+    background: #637D8D;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+button:hover {
+
+}
