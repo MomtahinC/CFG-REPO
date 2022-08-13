@@ -1,8 +1,56 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     text-align: center;
 }
 
 /* ABOUT PAGE */
+
+nav {
+    margin: auto;
+}
+
+
+li {
+    list-style: none;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+}
+
+.button {
+    background: #637D8D;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 121px;
+    height: 34px;
+    padding: 9px 31px;
+    font-size: 24px;
+    margin: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #FFFFFF;
+    color: #637D8D;
+    border: 3px solid #637D8D;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px; 
+    width: 121px;
+    height: 34px; 
+    padding: 9px 31px;
+    font-size: 24px;
+    margin: 10px; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 header {
     background: #EFECF3;
@@ -26,30 +74,57 @@ header {
 
 .team {
     display: flex;
-    align-items:center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 50px;
 }
 
-p {
+.team-info {
+    display: flex;
+    flex-direction: column; /* the flexbox item has to be a column to display things below it vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /*centered the text, name, and image */
+    margin: 50px;
+    width: 300px;
+}
+
+.name:link {
     color: #637D8D;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+p.name:visited {
+    color: #EFECF3;
+    background-color: #284557;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+p.name:hover {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #284557;
+    text-decoration-thickness: 3px;
+    color: #284557;
+    background-color: #EFECF3;
+}
+
+p.name:active {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #284557;
 }
 
 img.about {
     border-radius: 50%;
-    opacity: 80%;
+    opacity: 90%;
     max-width: 50%;
   }
 
 img.about:hover {
-    opacity: 95%;
-}
-
-button {
-    background: #637D8D;
-    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-}
-
-button:hover {
-
+    opacity: 100%;
 }
