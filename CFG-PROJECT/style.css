@@ -167,6 +167,7 @@ footer {
     margin: auto;
 }
 
+
 .cfg {
     display: flex;
     text-align: center;
@@ -199,3 +200,31 @@ a.footer:hover {
     background-color: #805972;
     color: white;
 }
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+
+    .cfg-logo {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        max-width: 20%;
+        height: auto;
+        padding: 15px;
+        margin: auto;
+    }
+  }
+
+  /* END MEDIA QUERY */
