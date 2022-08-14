@@ -10,27 +10,32 @@ h1 {
 
 nav {
     margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-
-li {
+ul {
     list-style: none;
-    font-family: 'Roboto Serif';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .button {
     background: #637D8D;
-    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
+    border: 3px solid #FFFFFF; /* prevent the button from moving by making the border the same color as the background */
+    border-radius: 7px; 
     width: 121px;
     height: 34px;
     padding: 9px 31px;
-    font-size: 24px;
+    font-size: 18px;
     margin: 10px;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -41,12 +46,11 @@ li {
     background: #FFFFFF;
     color: #637D8D;
     border: 3px solid #637D8D;
-    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
     border-radius: 4px; 
     width: 121px;
     height: 34px; 
     padding: 9px 31px;
-    font-size: 24px;
+    font-size: 18px;
     margin: 10px; 
     text-transform: uppercase;
     text-decoration: none;
@@ -60,10 +64,10 @@ header {
 
 .title {
     color: #284557;
-    font-size: 64px;
     text-align: center;
     font-weight: bold;
     font-family: "Roboto Serif";
+    font-size: 3em;
     text-transform: uppercase;
     width: auto;
     padding-top: 80px;
@@ -72,51 +76,65 @@ header {
     
 }
 
+.tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #805972;
+    font-style: italic;
+    font-weight: 500;
+    font-size: .8em;
+}
+
+
 .team {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    margin: auto;
 }
 
 .team-info {
     display: flex;
-    flex-direction: column; /* the flexbox item has to be a column to display things below it vertically */
+    flex-flow: column wrap; /* the flexbox item has to be a column to display things below it vertically */
     justify-content: center;
     align-items: center;
     text-align: center; /*centered the text, name, and image */
-    margin: 50px;
+    margin: 45px;
     width: 300px;
+    color: #284557;
 }
 
-.name:link {
-    color: #637D8D;
-    text-transform: uppercase;
+a {
     text-decoration: none;
 }
 
+.name {
+    color: #637D8D;
+    text-transform: uppercase;
+    text-decoration-color: #284557;
+    text-decoration-thickness: 3px;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+/*
 p.name:visited {
     color: #EFECF3;
     background-color: #284557;
     text-decoration: none;
     text-transform: uppercase;
 }
+*/
 
 p.name:hover {
     font-weight: 500;
     text-transform: uppercase;
-    text-decoration: underline;
-    text-decoration-color: #284557;
-    text-decoration-thickness: 3px;
-    color: #284557;
-    background-color: #EFECF3;
-}
-
-p.name:active {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #284557;
+    background-color: #805972;
+    color: white;
 }
 
 img.about {
@@ -127,4 +145,57 @@ img.about {
 
 img.about:hover {
     opacity: 100%;
+}
+
+footer {
+    background: #EFECF3;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.cfg-logo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    max-width: 7%;
+    height: auto;
+    padding: 15px;
+    margin: auto;
+}
+
+.cfg {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #284557;
+    font-size: 1.5em;
+}
+
+.credit {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #284557;
+}
+
+a.footer {
+    font-weight: 500;
+    color: #284557;
+    text-decoration: underline;
+    text-decoration-color: #805972;
+    text-decoration-thickness: 2px;
+    padding: 0em .35em;
+}
+
+a.footer:hover {
+    background-color: #805972;
+    color: white;
 }
