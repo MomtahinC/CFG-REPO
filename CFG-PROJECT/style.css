@@ -92,7 +92,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: auto;
 }
 
@@ -100,7 +100,7 @@ header {
     display: flex;
     flex-flow: column wrap; /* the flexbox item has to be a column to display things below it vertically */
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center; /*centered the text, name, and image */
     margin: 45px;
     width: 300px;
