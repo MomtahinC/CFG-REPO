@@ -67,12 +67,13 @@ header {
     text-align: center;
     font-weight: bold;
     font-family: "Roboto Serif";
-    font-size: 3em;
+    font-size: 4em;
     text-transform: uppercase;
     width: auto;
     padding-top: 80px;
     border: 0px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 3px;
     
 }
 
@@ -84,7 +85,8 @@ header {
     color: #805972;
     font-style: italic;
     font-weight: 500;
-    font-size: .8em;
+    font-size: 1em;
+    margin-top: 3px;
 }
 
 
@@ -224,6 +226,15 @@ a.footer:hover {
         height: auto;
         padding: 15px;
         margin: auto;
+    }
+
+    .title {
+        font-size: 3em;
+        
+    }
+    
+    .tagline {
+        font-size: .8em;
     }
   }
 
