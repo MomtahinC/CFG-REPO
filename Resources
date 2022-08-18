@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="ResourcesStyle.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources</title>
+  </head>
+  <body>
+    <h1>Coding Resources</h1>
+    <p>
+      Interested in tech but don't know where to start? Dipping your foot in the
+      tech world can seem like a daunting task but it doesn't have to be! To
+      make things easier for you, we've compiled a list of some free and paid
+      resources to allow you to test the waters and see if a career in tech is
+      the right fit for you. Check out the links below and get coding!
+    </p>
+    <!--Need to fix link for below - too long so I removed it-->
+    <img scr=>
+    <h2>Free Resources</h2>
+    <p>
+      Whether you're making a career change, coding for fun or deciding what
+      career is right for you, the world of tech has a lot to offer. Rather than
+      forking out hundreds or thousands on an expensive coding bootcamp or
+      degree straight away, the below websites offer free courses in coding and
+      development. This is a great way to see if coding is for you, without
+      having to invest financially from the get-go.
+    </p>
+    <h3>
+      <a
+        href="https://www.codecademy.com/?utm_source=pepperjam&utm_medium=affiliate&utm_term=229159&clickId=4066918519&pj_creativeid=2-438167&pj_publisherid=229159"
+      >
+        Codecademy
+      </a>
+    </h3>
+    <p>
+      Codecademy is one of the best-known free coding websites. Offering free
+      resources in HTML, CSS, Javascript and more, it is a great option for
+      beginners.
+    </p>
+    <h3>
+      <a href="https://www.freecodecamp.org/"> freeCodeCamp </a>
+    </h3>
+    <p>
+      Offering over 8,000+ tutorials covering topics in frontend and backend
+      development, web design, python and more, freeCodecademy graduates have
+      gone on to work for some of the biggest tech companies in the world.
+    </p>
+    <h3>
+      <a href="https://www.theodinproject.com/"> The Odin Project </a>
+    </h3>
+    <p>
+      Founded on the belief that education should be free and accessible, the
+      Odin Project offers free courses and tutorials for a variety of
+      programming languages from basic html and CSS to ruby on rails and advice
+      on getting hired. The Odin Project has a large open source community for
+      all your programming queries.
+    </p>
+    <h3>
+      <a href="https://www.codeconquest.com/"> Code Conquest </a>
+    </h3>
+    <p>
+      Designed specifically with newbie coders in mind, Code Conquest offers
+      accessible coding resources with quizzes, tutorials and cheatsheets
+      available for a wide range of coding languages. Best of all, it's all
+      free!
+    </p>
+    <h3>
+      <a href="https://code.org/"> Code.Org</a>
+    </h3>
+    <p>
+      With a view to increasing the number of kids learning computer programming
+      as part of their k-12 education, Code.org offers a wide range of basic
+      programming tutorials, created to be interactive and easily accessible.
+      Don't let the fact this was designed for kids put you off, as the
+      resources are available to beginners of all ages.
+    </p>
+    <h2>Paid Resources</h2>
+    <p>
+      If you already know the basics or are sure you want to invest in your
+      programming journey, then check out the below resources and courses we've
+      compiled of the most popular options.
+    </p>
+    <h3>
+      <a href="https://www.udemy.com/"> Udemy</a>
+    </h3>
+    <p>
+      Udemy offers a wide range of coding courses, varying in length and price,
+      so you can pick what best works for your skill level and goals.
+    </p>
+    <h3>
+      <a href="https://www.shecodes.io/"> SheCodes</a>
+    </h3>
+    <p>
+      Designed specifically for women, SheCodes offers a range of flexible
+      courses and a free intro course for potential learners to get a feel for
+      the course style and structure. SheCodes courses can be taken full-time or
+      part-time and students get a certificate upon completion.
+    </p>
+    <h3>
+      <a href="https://www.coursera.org/"> Coursera</a>
+    </h3>
+    <p>
+      Similar to Udemy, Coursera offers a range of coding courses, varying in
+      length and price so that you can choose the best option for your goals.
+      Some courses offer certification and reviews are available on the site for
+      all.
+    </p>
+    <h3>
+      <a href="https://www.udacity.com/"> Udacity</a>
+    </h3>
+    <p>
+      Udacity also offers courses for those looking to pursue a career in the
+      tech industry. Courses offered cover a wide range of tech careers from
+      product management to AI programming, taught by industry experts through a
+      flexible learning style curriculum.
+    </p>
+  </body>
+</html>
